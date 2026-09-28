@@ -16,7 +16,7 @@
 </head>
 <body>
 <h1>Privacy Policy for Grillguessr</h1>
-<p class="muted">Last updated: 9 June 2026</p>
+<p class="muted">Last updated: 28 September 2026</p>
 
 <p>This Privacy Policy describes how Grillguessr ("the App", "we", "us") collects, uses,
 and shares information when you use our mobile application. By using the App, you agree to
@@ -29,19 +29,19 @@ the collection and use of information in accordance with this policy.</p>
   anonymous account through Firebase Authentication. This generates a random user ID that
   lets us save your game progress and scores. It is not linked to your name or email unless
   you choose to sign in.</li>
-  <li><strong>Optional sign-in information.</strong> If you choose to sign in with Google or
-  Apple, we receive a unique account identifier and, where you permit it, your display name.
-  We use this only to associate your scores with your account across devices.</li>
+  <li><strong>Optional sign-in information.</strong> Where account linking is available, Firebase Authentication
+  processes your email and password to create or access your account.
+  We use your account identifier to associate your scores with your account across devices.</li>
   <li><strong>Game data.</strong> Your scores, daily-challenge results, and leaderboard entries
   are stored in our database (Google Firebase Firestore).</li>
-  <li><strong>Advertising identifiers.</strong> Our advertising partner (Google AdMob) may
-  collect your device's advertising ID and related technical data to serve ads. See Section 3.</li>
+  <li><strong>Advertising data.</strong> Unity LevelPlay, ironSource Ads, and Meta Audience Network may
+  collect advertising identifiers, IP addresses, device information, and ad interactions. See Section 3.</li>
   <li><strong>Device and diagnostic data.</strong> Standard technical information (device type,
   operating system version, app version, and crash data) may be collected to keep the App
   working reliably.</li>
 </ul>
-<p>We do <strong>not</strong> ask for or collect your real name, email address, phone number,
-precise location, photos, or contacts.</p>
+<p>The App does not request your phone number, precise location, personal photos, or contacts.
+If you contact support, we receive your email address and the information you send.</p>
 
 <h2>2. How We Use Information</h2>
 <ul>
@@ -52,20 +52,28 @@ precise location, photos, or contacts.</p>
 </ul>
 
 <h2>3. Advertising</h2>
-<p>Grillguessr displays advertisements provided by <strong>Google AdMob</strong>. AdMob may
-use your device's advertising identifier and other data to serve and measure ads. By default,
-the App requests <strong>non-personalized ads</strong>. Google's handling of this data is
-governed by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and
-the <a href="https://support.google.com/admob/answer/6128543">AdMob &amp; AdSense policies</a>.
-You can reset or limit your advertising ID in your device settings at any time.</p>
+<p>The Android app uses <strong>Unity LevelPlay</strong> to obtain advertisements from
+<strong>Meta Audience Network</strong> and <strong>ironSource Ads</strong>.
+These services use advertising data to select and measure advertisements and prevent fraud.
+IP addresses can indicate your approximate location.</p>
+<p>The app uses Google's User Messaging Platform to collect privacy choices where required.
+When GDPR applies, the app requests ads only after consent for device storage and both advertising partners.
+You can change your choices through <strong>Settings &gt; Privacy options</strong> when this option is available.
+The app also sends sale/sharing restriction signals to LevelPlay and requests Meta Limited Data Use where supported.
+These settings do not prevent all advertising data collection.</p>
+<p>You can reset or limit your advertising ID in your device settings.
+Google's consent service follows the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+This updated Android version does not request AdMob advertisements.
+Older installed versions can still use Google AdMob, which processes advertising identifiers, device information, and ad interactions.</p>
 
 <h2>4. Third-Party Services</h2>
 <p>We rely on the following third-party services, each with its own privacy policy:</p>
 <ul>
   <li>Google Firebase (Authentication &amp; Firestore) — <a href="https://firebase.google.com/support/privacy">Firebase Privacy</a></li>
-  <li>Google AdMob — <a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
-  <li>Google Sign-In — <a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
-  <li>Apple Sign-In — <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
+  <li>Unity LevelPlay and ironSource Ads — <a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a></li>
+  <li>Meta Audience Network — <a href="https://www.facebook.com/privacy/policy/">Meta Privacy Policy</a></li>
+  <li>Google User Messaging Platform — <a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+  <li>Google AdMob in older versions — <a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
 </ul>
 
 <h2>5. Data Sharing</h2>
@@ -73,9 +81,9 @@ You can reset or limit your advertising ID in your device settings at any time.<
 service providers listed above, solely to operate the App and serve advertisements.</p>
 
 <h2>6. Data Retention &amp; Deletion</h2>
-<p>Your anonymous account and game data are retained while the App is installed. To request
-deletion of your data, contact us at the email below and we will delete your account record
-and associated scores.</p>
+<p>Uninstalling the App does not automatically delete your Firebase account or server data.
+To request deletion of your account and associated scores, contact us at the email below.
+Include your player identifier, if available, so we can locate your records.</p>
 
 <h2>7. Children's Privacy</h2>
 <p>Grillguessr is not directed to children under 13. We do not knowingly collect personal
